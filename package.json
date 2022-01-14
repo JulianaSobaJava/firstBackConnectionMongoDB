@@ -1,0 +1,33 @@
+{
+  "name": "aula015",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon Server.js --ignore public --ignore frontend",
+    "dev": "webpack -w"
+  },
+  "keywords": [],
+  "author": "Juliana Soba",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.20.2",
+    "css-loader": "^6.5.1",
+    "dotenv": "^11.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6",
+    "regenerator-runtime": "^0.13.9",
+    "style-loader": "^3.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "babel-loader": "^8.2.3",
+    "nodemon": "^2.0.15",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
